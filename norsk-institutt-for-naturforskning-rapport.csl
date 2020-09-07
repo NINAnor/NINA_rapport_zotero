@@ -20,7 +20,7 @@
     <category field="ecology"/>
     <category field="nature"/>
     <summary>Basert på APA stilen (Kornblith &amp; Wiernik 2020)</summary>
-    <updated>2020-09-07T08:17:47+00:00</updated>
+    <updated>2020-09-07T08:31:08+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="no-nb">
@@ -1047,7 +1047,7 @@
       <if type="article-journal article-magazine figure review review-book" match="any">
         <group font-variant="small-caps" delimiter=": ">
           <group>
-            <text variable="volume" font-style="italic"/>
+            <text variable="volume" font-style="normal"/>
             <text variable="issue" prefix="(" suffix=")"/>
           </group>
           <text variable="page"/>
