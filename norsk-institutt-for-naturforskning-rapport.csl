@@ -20,7 +20,7 @@
     <category field="ecology"/>
     <category field="nature"/>
     <summary>Basert på APA stilen (Kornblith &amp; Wiernik 2020)</summary>
-    <updated>2020-09-07T08:31:08+00:00</updated>
+    <updated>2020-09-07T13:44:32+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="no-nb">
@@ -423,7 +423,7 @@
   </macro>
   <macro name="access">
     <choose>
-      <if type="bill legal_case legislation" match="any"/>
+      <if type="bill legal_case legislation book" match="any"/>
       <else-if variable="DOI" match="any">
         <text variable="DOI" prefix="https://doi.org/"/>
       </else-if>
@@ -1120,7 +1120,8 @@
           </group>
         </else>
       </choose>
-      <group>
+      <text macro="publisher"/>
+      <group suffix=" ">
         <label text-case="capitalize-first" suffix=" " variable="page" form="short"/>
         <text variable="page"/>
       </group>
@@ -1249,7 +1250,7 @@
     <choose>
       <if variable="container-title collection-title" match="any">
         <group delimiter=" ">
-          <text term="in" text-case="capitalize-first"/>
+          <text term="in" text-case="capitalize-first" suffix=":"/>
           <group delimiter=", ">
             <text macro="container-contributors"/>
             <choose>
@@ -1484,3 +1485,4 @@
     </layout>
   </bibliography>
 </style>
+
