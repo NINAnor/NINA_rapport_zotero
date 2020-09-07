@@ -20,7 +20,7 @@
     <category field="ecology"/>
     <category field="nature"/>
     <summary>Basert på APA stilen (Kornblith &amp; Wiernik 2020)</summary>
-    <updated>2020-09-07T07:29:29+00:00</updated>
+    <updated>2020-09-07T08:17:47+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="no-nb">
@@ -430,6 +430,9 @@
       <else-if variable="URL">
         <choose>
           <if type="report" match="any">
+            <group suffix=". ">
+              <text variable="publisher"/>
+            </group>
             <group>
               <text variable="URL"/>
             </group>
