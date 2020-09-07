@@ -1,0 +1,55 @@
+[
+	{
+		"id": "http://zotero.org/users/5876551/items/N5PJDIAU",
+		"type": "chapter",
+		"abstract": "In the Czech Republic, about 50% of agricultural land is affected by water erosion that adversely influences soil productivity and the environment. SMODERP (A Simulation Model of Overland Flow and Erosion Processes) was developed at the Department of Irrigation, Drainage and Landscape Engineering of the Faculty of Civil Engineering, CTU Prague, in 1988 (Holý et al 1988). The model was intended for being used as an engineering tool for decision-making and design in soil and water conservation. The results of field and laboratory experiments carried out in the Czech Republic and other countries were used for developing the model (Holý et al. 1982).",
+		"collection-title": "Environmental Science",
+		"container-title": "Soil Erosion: Application of Physically Based Models",
+		"event-place": "Berlin, Heidelberg",
+		"ISBN": "978-3-662-04295-3",
+		"language": "en",
+		"note": "DOI: 10.1007/978-3-662-04295-3_8",
+		"page": "135-161",
+		"publisher": "Springer",
+		"publisher-place": "Berlin, Heidelberg",
+		"source": "Springer Link",
+		"title": "SMODERP — A Simulation Model of Overland Flow and Erosion Processes",
+		"URL": "https://doi.org/10.1007/978-3-662-04295-3_8",
+		"author": [
+			{
+				"family": "Dostál",
+				"given": "T."
+			},
+			{
+				"family": "Váška",
+				"given": "J."
+			},
+			{
+				"family": "Vrána",
+				"given": "K."
+			}
+		],
+		"editor": [
+			{
+				"family": "Schmidt",
+				"given": "Jürgen"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					1,
+					30
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2000"
+				]
+			]
+		}
+	}
+]
