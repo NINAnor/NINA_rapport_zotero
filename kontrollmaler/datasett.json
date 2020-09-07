@@ -1,0 +1,98 @@
+[
+	{
+		"id": "http://zotero.org/groups/2355831/items/SW4VSVBB",
+		"type": "article",
+		"language": "en",
+		"note": "dimensions: 728 data points\nmedium: text/tab-separated-values\npage: 728 data points\ntype: dataset\nDOI: 10.1594/PANGAEA.783310",
+		"publisher": "PANGAEA - Data Publisher for Earth & Environmental Science",
+		"source": "DOI.org (Datacite)",
+		"title": "Pollen-derived climate reconstructions of sediment core ICDP5011-1",
+		"URL": "https://doi.pangaea.de/10.1594/PANGAEA.783310",
+		"author": [
+			{
+				"family": "Melles",
+				"given": "Martin"
+			},
+			{
+				"family": "Brigham-Grette",
+				"given": "Julie"
+			},
+			{
+				"family": "Minyuk",
+				"given": "Pavel S"
+			},
+			{
+				"family": "Nowaczyk",
+				"given": "Norbert R"
+			},
+			{
+				"family": "Wennrich",
+				"given": "Volker"
+			},
+			{
+				"family": "DeConto",
+				"given": "Robert M"
+			},
+			{
+				"family": "Anderson",
+				"given": "Patricia A"
+			},
+			{
+				"family": "Andreev",
+				"given": "Andrei A"
+			},
+			{
+				"family": "Coletti",
+				"given": "Anthony"
+			},
+			{
+				"family": "Cook",
+				"given": "Timothy L"
+			},
+			{
+				"family": "Haltia-Hovi",
+				"given": "Eeva"
+			},
+			{
+				"family": "Kukkonen",
+				"given": "Maaret"
+			},
+			{
+				"family": "Lozhkin",
+				"given": "Anatoly V"
+			},
+			{
+				"family": "Rosén",
+				"given": "Peter"
+			},
+			{
+				"family": "Tarasov",
+				"given": "Pavel E"
+			},
+			{
+				"family": "Vogel",
+				"given": "Hendrik"
+			},
+			{
+				"family": "Wagner",
+				"given": "Bernd"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					9,
+					7
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2012"
+				]
+			]
+		}
+	}
+]
