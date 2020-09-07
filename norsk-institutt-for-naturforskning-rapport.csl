@@ -20,7 +20,7 @@
     <category field="ecology"/>
     <category field="nature"/>
     <summary>Basert på APA stilen (Kornblith &amp; Wiernik 2020)</summary>
-    <updated>2020-09-07T13:44:32+00:00</updated>
+    <updated>2020-09-07T14:05:20+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="no-nb">
@@ -560,7 +560,7 @@
               <text variable="genre" text-case="capitalize-first"/>
               <choose>
                 <if variable="DOI URL archive" match="any">
-                  <text variable="publisher"/>
+                  <text macro="archive"/>
                 </if>
               </choose>
             </group>
@@ -1485,4 +1485,3 @@
     </layout>
   </bibliography>
 </style>
-
