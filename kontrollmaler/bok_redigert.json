@@ -1,0 +1,51 @@
+[
+	{
+		"id": "http://zotero.org/groups/2355831/items/M94GFZFB",
+		"type": "book",
+		"event-place": "Oxford, UK",
+		"ISBN": "978-1-4443-2775-5",
+		"note": "DOI: 10.1002/9781444327755",
+		"publisher": "Wiley-Blackwell",
+		"publisher-place": "Oxford, UK",
+		"source": "DOI.org (Crossref)",
+		"title": "Atlantic Salmon Ecology: Aas/Atlantic Salmon Ecology",
+		"title-short": "Atlantic Salmon Ecology",
+		"URL": "http://doi.wiley.com/10.1002/9781444327755",
+		"editor": [
+			{
+				"family": "Aas",
+				"given": "Øystein"
+			},
+			{
+				"family": "Einum",
+				"given": "Sigurd"
+			},
+			{
+				"family": "Klemetsen",
+				"given": "Anders"
+			},
+			{
+				"family": "Skurdal",
+				"given": "Jostein"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					9,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2010",
+					10,
+					1
+				]
+			]
+		}
+	}
+]

@@ -1,0 +1,45 @@
+[
+	{
+		"id": "http://zotero.org/groups/2355831/items/FX9HL5C9",
+		"type": "article-journal",
+		"abstract": "Fish often migrate between habitats, and by that, fitness is improved. We estimated population parameters and studied possible migration of brown trout Salmo trutta between a Norwegian river and a tributary under two different regulated water flow regimes. In the 1970s, the main stem had high winter flows and reduced summer flows. Since 1981, the river has reduced minimum flow regime: 2.5 m3·s−1 in winter and 6 m3·s−1 in summer; the tributary has a natural flow regime. The growth of trout in the main stem was reduced from 1975 to 2013, with significantly lower mean lengths in all age groups. In the tributary, a similar reduction was observed in juvenile fish (age-0 and age-1). Mean length (mm) was unchanged in ≥age-2 fish, while body length variation among fish ≥age-4 was greatly reduced. The condition factor (Fulton's K) declined in both main stem and tributary. While it appears that sexual maturation was delayed in the tributary, the difference was not significant. In the 1970s, juveniles from the tributary migrated into the main stem to feed and grow, before returning to the tributary to spawn. PIT tagging of fish in the tributary in 2012 and subsequent surveys for recapture (in 2012 and 2013) indicated residency among fish in the tributary and no migration into the main stem. Thus, the migratory behaviour appears adaptive, and reduced habitat quality in terms of food and shelter due to reduced flow appears to have removed the growth benefit previously associated with the migration.",
+		"container-title": "Ecology of Freshwater Fish",
+		"DOI": "10.1111/eff.12204",
+		"ISSN": "1600-0633",
+		"issue": "2",
+		"language": "en",
+		"note": "_eprint: https://onlinelibrary.wiley.com/doi/pdf/10.1111/eff.12204",
+		"page": "225-233",
+		"source": "Wiley Online Library",
+		"title": "Life history plasticity: migration ceased in response to environmental change?",
+		"title-short": "Life history plasticity",
+		"URL": "https://onlinelibrary.wiley.com/doi/abs/10.1111/eff.12204",
+		"volume": "25",
+		"author": [
+			{
+				"family": "Sandlund",
+				"given": "Odd T."
+			},
+			{
+				"family": "Jonsson",
+				"given": "Bror"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2020",
+					9,
+					8
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016"
+				]
+			]
+		}
+	}
+]
