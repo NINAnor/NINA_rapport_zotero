@@ -20,7 +20,7 @@
     <category field="ecology"/>
     <category field="nature"/>
     <summary>Basert på APA stilen (Kornblith &amp; Wiernik 2020)</summary>
-    <updated>2020-09-07T14:05:20+00:00</updated>
+    <updated>2020-09-08T11:10:12+00:00</updated>
     <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
   </info>
   <locale xml:lang="no-nb">
@@ -271,7 +271,7 @@
             </choose>
             <names variable="editor translator" delimiter=", ">
               <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
-              <label form="short" text-case="lowercase" prefix=" " suffix="."/>
+              <label form="short" text-case="lowercase" prefix=" (" suffix=")"/>
             </names>
             <names variable="editorial-director">
               <name name-as-sort-order="all" and="symbol" sort-separator=", " initialize-with=". " delimiter=", " delimiter-precedes-last="always"/>
@@ -358,7 +358,7 @@
       </else-if>
       <else>
         <names variable="author" delimiter=", ">
-          <name form="short" and="symbol" delimiter=", " initialize-with=". "/>
+          <name form="short" and="symbol" et-al-min="4" et-al-use-first="1" et-al-subsequent-min="4" et-al-subsequent-use-first="1" initialize-with=". "/>
           <substitute>
             <names variable="illustrator"/>
             <names variable="composer"/>
@@ -430,9 +430,6 @@
       <else-if variable="URL">
         <choose>
           <if type="report" match="any">
-            <group suffix=". ">
-              <text variable="publisher"/>
-            </group>
             <group>
               <text variable="URL"/>
             </group>
@@ -727,7 +724,7 @@
   <macro name="description-report">
     <choose>
       <if variable="number">
-        <group delimiter="; ">
+        <group delimiter=". ">
           <group delimiter=" ">
             <text variable="collection-title" text-case="title"/>
             <text variable="number"/>
@@ -1121,10 +1118,14 @@
         </else>
       </choose>
       <text macro="publisher"/>
-      <group suffix=" ">
-        <label text-case="capitalize-first" suffix=" " variable="page" form="short"/>
-        <text variable="page"/>
-      </group>
+      <choose>
+        <if type="chapter" match="any">
+          <group>
+            <label text-case="capitalize-first" variable="page" form="short"/>
+            <text variable="page"/>
+          </group>
+        </if>
+      </choose>
     </group>
   </macro>
   <macro name="citation-locator">
